@@ -31,13 +31,16 @@
 
 ## 🚀 Projeto
 WIP //
+Trata-se de um sistema para compartilhar com amigos seus filmes favoritos (ou não!) do momento, onde seus amigos também poderão ver quais filmes você adicionou e sua avaliação sobre ele.
+Design Patter utilizado DAO
 
 ### ⚙ Funcionalidades
 
 - Cadastrar Filmes
 - Sistema de login com autenticação de usuários
+- Adicionar filmes e avaliações
 - Listar todos os filmes
-- Adicionar e remover comentários nos filmes
+- Barra de busca
 
 ### 🛸 Requisitos
 - PHP v8.0.12
