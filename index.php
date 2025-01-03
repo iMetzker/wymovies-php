@@ -1,3 +1,9 @@
+<?php 
+require_once("./app/controllers/globals.php");
+require_once("./app/controllers/db.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
