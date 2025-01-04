@@ -1,3 +1,31 @@
 body {
-    background-color: gray;
+  background-color: black;
+}
+
+.navbar-header,
+.navbar-header li a,
+.icons-header a {
+  color: white;
+}
+
+.navbar-header li a:hover {
+    color: #c9cbcc;
+  }
+
+.icons-header {
+  gap: 25px;
+  cursor: pointer;
+}
+
+.icons-header a{
+    text-decoration: none;
+  }
+
+.icons-header span:nth-child(1),
+.icons-header span:nth-child(3) {
+  font-size: 20px;
+}
+
+.icons-header span:nth-child(2) {
+  font-size: 25px;
 }
