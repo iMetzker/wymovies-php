@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000; 
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Mensagem de autenticação */
+
+.msg-container {
+  background-color: white;
+  padding: 1.5rem;
+
+  .msg {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid 0.1rem #000;
+    text-align: center;
+
+    &.error {
+      color: #842029;
+      background-color: #F8D7DA;
+      border-color: #F5C2C7;
+    }
+
+    &.success {
+      color: #0F5132;
+      background-color: #D1E7DD;
+      border-color: #BADBCC;
+    }
+  }
+
+}
+
+/* Navbar */
+
+.navbar-header,
+.navbar-header li a,
+.icons-header a {
+  color: white;
+}
+
+.navbar-header li a:hover {
+  color: #c9cbcc;
+}
+
+.navbar-header #logo {
+  width: 150px;
+}
+
+.icons-header {
+  gap: 25px;
+  cursor: pointer;
+}
+
+.icons-header a {
+  text-decoration: none;
+}
+
+.icons-header span:nth-child(1),
+.icons-header span:nth-child(3) {
+  font-size: 20px;
+}
+
+.icons-header span:nth-child(2) {
+  font-size: 25px;
+}
