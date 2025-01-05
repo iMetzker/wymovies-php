@@ -2,6 +2,8 @@ body {
   background-color: black;
 }
 
+/* Navbar */
+
 .navbar-header,
 .navbar-header li a,
 .icons-header a {
@@ -10,6 +12,10 @@ body {
 
 .navbar-header li a:hover {
     color: #c9cbcc;
+  }
+
+  .navbar-header #logo {
+    width: 150px;
   }
 
 .icons-header {
