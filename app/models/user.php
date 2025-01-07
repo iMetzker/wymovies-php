@@ -5,7 +5,7 @@ class User {
     public $name;
     public $lastname;
     public $email;
-    protected $password;
+    public $password;
     public $image;
     public $bio;
     public $token;
