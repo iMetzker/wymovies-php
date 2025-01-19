@@ -23,7 +23,6 @@ Design Patter utilizado DAO
 ### ⚙ Funcionalidades
 
 - Cadastrar Filmes
-- Sistema de login com autenticação de usuários
 - Adicionar filmes e avaliações
 - Listar todos os filmes
 - Barra de busca
@@ -31,27 +30,3 @@ Design Patter utilizado DAO
 ### 🛸 Requisitos
 - PHP v8.0.12
 - mySQL v8.0.40
-
-### 🛠 Execute a Aplicação
-Para executar a aplicação na sua máquina local, siga estes passos:
-<br>
-1. Clone o repositório usando o comando:
-
-```bash
-git clone https://github.com/iMetzker/wymovies-php.git
-```
-2. Abra o projeto em seu ambiente de desenvolvimento.
-
-
-## 🛸 Tecnologias
-
-Esse projeto será desenvolvido com as seguintes tecnologias:
-
-- PHP
-- mySQL
-- Xampp
-- Bootstrap
-
-## 💻 Layout
-
-<img src="" alt="preview do projeto em funcionamento">
